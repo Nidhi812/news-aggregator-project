@@ -139,8 +139,8 @@ Create `.env` files in respective directories:
 DB_HOST=localhost
 DB_PORT=3306
 DB_NAME=news_aggregator
-DB_USERNAME=root
-DB_PASSWORD=root
+DB_USERNAME=username
+DB_PASSWORD=password
 JWT_SECRET=your-jwt-secret
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
@@ -272,7 +272,6 @@ This project is licensed under the MIT License.
 ## 🆘 Support
 
 For support and questions, please create an issue in the repository.
-
 ---
 
 **Note**: Make sure to update the email configuration and JWT secret in production environments. 
