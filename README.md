@@ -128,32 +128,6 @@ The application will be available at:
 - `GET /api/admin/users` - Get all users
 - `GET /api/admin/news-stats` - Get news statistics
 
-## 🔧 Configuration
-
-### Environment Variables
-
-Create `.env` files in respective directories:
-
-#### Backend (.env)
-```
-DB_HOST=localhost
-DB_PORT=3306
-DB_NAME=news_aggregator
-DB_USERNAME=username
-DB_PASSWORD=password
-JWT_SECRET=your-jwt-secret
-SMTP_HOST=smtp.gmail.com
-SMTP_PORT=587
-SMTP_USERNAME=your-email@gmail.com
-SMTP_PASSWORD=your-app-password
-```
-
-#### Frontend (.env)
-```
-REACT_APP_API_URL=http://localhost:8080
-REACT_APP_WS_URL=ws://localhost:8080
-```
-
 ## 📊 Database Schema
 
 ### Users Table
