@@ -11,11 +11,3 @@ spring:
 jwt:
   secret: dummysecretkey
   expiration: 3600000
-
-
-
-#   instance:
-#     lease-renewal-interval-in-seconds: 10
-#     lease-expiration-duration-in-seconds: 30
-
-
