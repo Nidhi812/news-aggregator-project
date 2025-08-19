@@ -1,0 +1,14 @@
+com\newsaggregator\auth\repository\UserRepository.class
+com\newsaggregator\auth\config\SecurityConfig.class
+com\newsaggregator\auth\model\User.class
+com\newsaggregator\auth\service\EmailService.class
+com\newsaggregator\auth\dto\UserProfileRequest.class
+com\newsaggregator\auth\dto\RegisterRequest.class
+com\newsaggregator\auth\controller\AuthController.class
+com\newsaggregator\auth\dto\LoginRequest.class
+com\newsaggregator\auth\AuthApplication.class
+com\newsaggregator\auth\dto\AuthResponse.class
+com\newsaggregator\auth\service\AuthService.class
+com\newsaggregator\auth\config\AppConfig.class
+com\newsaggregator\auth\model\User$Role.class
+com\newsaggregator\auth\service\JwtService.class
